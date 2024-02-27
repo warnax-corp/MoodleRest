@@ -1,17 +1,17 @@
 {
-    "name": "llagerlof/moodlerest",
+    "name": "warnax-corp/moodlerest",
     "description": "MoodleRest is a PHP class to query Moodle REST webservices",
     "license": "MIT",
-    "version": "2.4.0",
-    "homepage": "https://github.com/llagerlof",
+    "version": "2.4.1",
+    "homepage": "https://github.com/warnax-corp",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/llagerlof/MoodleRest.git"
+        "url": "git+https://github.com/warnax-corp/MoodleRest.git"
     },
     "authors": [
         {
-            "name": "Lawrence Lagerlof",
-            "email": "llagerlof@gmail.com"
+            "name": "WARNAX Corp.",
+            "email": "info@warnax.co.jp"
         }
     ],
     "autoload": {
