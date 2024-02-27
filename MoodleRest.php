@@ -5,7 +5,7 @@
  * MoodleRest is a class to query Moodle REST webservices
  *
  * @package    MoodleRest
- * @version    2.4.0
+ * @version    2.4.1
  * @author     Lawrence Lagerlof <llagerlof@gmail.com>
  * @copyright  2021 Lawrence Lagerlof
  * @link       http://github.com/llagerlof/MoodleRest
@@ -416,7 +416,7 @@ class MoodleRest
 
         $this->setMethod($method);
 
-        $query_string = is_array($parameters) ? http_build_query($parameters) : '';
+        $query_string = is_array($parameters) ? http_build_query($parameters, '', '&') : '';
 
         $this->setUrl(
             $this->getServerAddress() .
